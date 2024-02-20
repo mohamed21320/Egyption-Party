@@ -1,0 +1,155 @@
+
+.ig{
+    color: aliceblue;
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    position: absolute;
+}
+.hov{
+    background-color: #000;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    overflow: hidden;
+    color: #fff;
+}
+.halfig{
+
+    padding-inline: 2rem;
+    
+}
+.half{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    font-size: 25px;
+    font-weight: 600;
+padding-block: 20px;
+display: inline-block;
+}
+
+.icon{
+    position: relative;
+    left: 100px;
+    top: 0;
+padding-block: 20px;
+}
+i{
+cursor: pointer;
+
+}
+#home{
+    background-image:linear-gradient(#bd0f3a94,#bd0f3a94), url(../events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+#home .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    color: aliceblue;
+    height: 100vh;
+}
+#home .text h2{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#duration .container{
+    width: 50%;
+    margin: auto;
+    
+}
+#duration .container h3{
+    background-color: coral;
+padding-block: 5px;
+cursor: pointer;
+}
+#duration .container p{
+    background-color: rgb(134, 130, 130);
+    padding: 10px;
+text-align: center;
+}
+.hamada{
+display: none;
+
+}
+#overlay{
+    background-image:linear-gradient(#bd0f3a94,#bd0f3a94), url(../invitation-2508607__340.jpg);
+    min-height: 350px;
+    background-size: 100% 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+#overlay .total{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ #days,#hours,#minuts,#sec {
+    color: aliceblue;
+    padding: 50px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+#contact .container{
+    width: 90%;
+    margin: auto;
+}
+#contact .container h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+#contact .container h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+#contact ul{
+    list-style: none;
+}
+#contact ul li{
+    margin-inline: 10px;
+    border: 1px solid grey;
+}
+#contact ul li i{
+    padding: 17px;
+}
+#contact ul li:hover {
+    background-color: rgb(211, 52, 52);
+    border:none ;
+}
+#contact ul li:hover i{
+    color: blanchedalmond;
+}
+.message textarea{
+height: 150px;
+
+}
+.messag span{
+    font-size: 30px;
+}
+
+
+
+
